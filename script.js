@@ -34,3 +34,25 @@ submitBtn.addEventListener('click', () => {
         el.style.height = `${height.toString()}px`;
     })
 })
+
+let number = Math.round(Math.random() * (31-1) + 1);
+console.log(number);
+
+let month = new Date().getMonth() + 1;
+console.log(number - month);
+
+let student = {
+    name: 'Vasya',
+    education: {
+        univer: 'Nure',
+        faculty: 'KIU',
+        course: 3,
+    }
+}
+
+console.log(student);
+
+
+
+
+
